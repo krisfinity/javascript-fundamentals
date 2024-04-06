@@ -9,6 +9,7 @@ console.log(msg.toUpperCase(" This statement has empty spaces. "));
 console.log(msg.toLowerCase(" This statement has empty spaces. "));
 console.log(msg.slice(15, 20));
 console.log(msg.slice( 6, 26));
+console.log(msg.trim( )
 
 let person = "Kristen"
 console.log(person[4]);

@@ -1,9 +1,9 @@
 //Declare a string using single quote
-let felineType = 'Cat'
+let felineType = 'Cats'
 let felineAction = "They meow quietly.";
 
 //Declare a string using double quotes
-let canineType = "Dog";
+let canineType = "Dogs";
 let canineAction = "They bark loudly";
 
 /*Using bracket notation on a variable of string
@@ -46,7 +46,7 @@ console.log(letter);
 let phrase = 'My name is Roger O\'Dell. \tHow are \n you doing today?';
 console.log(phrase);
 
-let phrase2 = 'Lets\"s try  \\something \0';
+let phrase2 = 'Lets\'s try  \something \0';
 console.log(phrase2);
 
 //Using the string length property
@@ -63,6 +63,11 @@ console.log(msg.charAt(2));
 console.log(msg.includes('He'));
 console.log(msg.indexOf('w'));
 console.log(msg.toUpperCase());
+
+
+
+
+
 
 
 
