@@ -1,3 +1,115 @@
+function ifExample(value1) {
+    console.log( 'Before if statement');
+    if ( value1 > 10 ) {
+        console.log(`Value of ${value1} is larger than 10
+        `);
+
+    }
+    //ifExample(2)
+   
+    console.log("After if statement")
+}
+ifExample(2);
+
+const elseExample =( value2) => {
+    if (value2 =='JavaScript') {
+        console.log( 'The value was true.');
+  } else {
+    console.log('The value was false.');
+}
+};
+elseExample("value2"); 
+
+function elseIfExample(num1) {
+    if (num1 <= 5) {
+        console.log(`${num1} is less than or = 5`
+)    } else if (num1 <= 10) {
+      console.log(`${num1} is less than 10}
+      `);
+    } else if(num1 <= 15) {
+        console.log(`{$num1} is less than or equal to 15
+    `);
+  } else {
+        console.log(`${num1} is greater than 15`);
+    }
+}
+
+
+ //elseIfExample(8);
+ //elseIfExample(20);
+
+ const logicalIfExample=(num3, num4) => {
+    if(num3==10 && num4>10) {
+        console.log('Both conditions are true');
+    } else {
+        console.log('One or both of the conditions are not true');
+
+    }
+
+    if(num3 <=9 || num4 > 20){
+        console.log('One of the conditions was true');
+    } else {
+        console.log('Both conditions were false');   
+    }
+ };
+//logicalIfExample(10,5);
+
+ //This if Ternary expression
+ const ternaryExample=(param) => {
+    const example=param >10?`${param} is greater` : `${param} is less`;
+    console.log(example);
+
+ };
+ //ternaryExample(5);
+ //ternaryExample(19);
+
+ //This is for Swith statement
+ function favoriteIcecream(flavor) {
+    switch (flavor) {
+        case  'vanilla':
+            console.log('Your favorite icecream is Vanilla ');
+            break;
+        case  'chocolate':
+            console.log('Your favorite icecream is Chocolate');
+            break;
+            default: 
+            console.log('We do not have favorite flavor');
+            break;
+    }
+ }
+ favoriteIcecream('vanilla');
+
+ const gradeEvaluater=(grade) => {
+    switch (grade) {
+    case 'A':
+    case 'u':
+    case 'U':
+    case 'a':
+    case 'a':
+         console.log('You got an A!');
+            break;
+        case 'b':
+        case 'B':
+            console.log('You got a B!');
+            break;
+        case 'c':
+        case 'C':
+            console.log('You got a C');
+            break;
+        case 'd':
+        case 'D':
+        console.log('You got a D');
+            break;
+            default:
+        console.log('You got an F');
+            break;
+    }
+ }
+
+ gradeEvaluator();
+
+
+
 // Addition and subtraction
 function exampleAddSubtract(num1, num2) {
     const add = num1 + num2;

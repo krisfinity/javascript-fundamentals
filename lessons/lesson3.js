@@ -20,7 +20,7 @@ let longSentence =
 
 let longSecond = "Lorem ipsum dolor sit amet, consecteturLorem ipsum dolor sit amet.  \
 consectetur Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet. \
-Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet,"
+Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet,";
 const alpha = "Hello";
 const beta = " World" ;
 
